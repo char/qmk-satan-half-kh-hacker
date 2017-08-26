@@ -1,0 +1,16 @@
+BOOTMAGIC_ENABLE = yes
+MOUSEKEY_ENABLE  = yes
+EXTRAKEY_ENABLE  = yes
+CONSOLE_ENABLE   = no
+COMMAND_ENABLE   = no
+NKRO_ENABLE      = yes
+RGBLIGHT_ENABLE  = no
+BACKLIGHT_ENABLE = yes
+MIDI_ENABLE      = no
+AUDIO_ENABLE     = no
+UNICODE_ENABLE   = no
+BLUETOOTH_ENABLE = no
+
+ifndef QUANTUM_DIR
+	include ../../../../Makefile
+endif
