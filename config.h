@@ -8,4 +8,7 @@
 #define MOUSEKEY_MAX_SPEED 7
 #define MOUSEKEY_TIME_TO_MAX 0
 
+#define MANUFACTURER    half-kh-hacker
+#define PRODUCT         ISO60
+
 #endif
