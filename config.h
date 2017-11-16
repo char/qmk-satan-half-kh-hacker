@@ -1,17 +1,23 @@
 #ifndef CONFIG_USER_H
 #define CONFIG_USER_H
 
-#include "../../config.h"
+#include "config_common.h"
 
-#define MOUSEKEY_DELAY 0
+#define MOUSEKEY_DELAY 1
 #define MOUSEKEY_INTERVAL 20
-#define MOUSEKEY_MAX_SPEED 7
+#define MOUSEKEY_MAX_SPEED 2
 #define MOUSEKEY_TIME_TO_MAX 0
 
 #define MOUSEKEY_WHEEL_MAX_SPEED 1
 #define MOUSEKEY_WHEEL_TIME_TO_MAX 0
 
+#undef MANUFACTURER
+#undef PRODUCT
+
 #define MANUFACTURER    half-kh-hacker
 #define PRODUCT         ISO60
+
+#undef BACKLIGHT_LEVELS
+#define BACKLIGHT_LEVELS 4
 
 #endif
